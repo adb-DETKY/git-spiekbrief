@@ -20,3 +20,7 @@ Met een pull haalden we de nieuwste wijzigingen vanuit de remote repository op G
 ## 5. Terugdraaien
 
 Bij het terugdraaien van een commit (zoals met git revert) wordt een foutieve commit niet uit de geschiedenis verwijderd, maar maakt Git een nieuwe commit aan die de wijzigingen van die commit ongedaan maakt. Zo blijft de volledige commitgeschiedenis behouden en duidelijk zichtbaar wat er is gebeurd, wat vooral belangrijk is wanneer er al is gepusht of met anderen wordt samengewerkt.
+
+## 6. Branches en pull requests
+
+Een branch is een aparte ontwikkelijn in je repository waarin je veilig aan een nieuwe functie of wijziging kunt werken zonder dat dit meteen invloed heeft op de rest van het project. De main-branch blijft altijd de werkende en stabiele versie, zodat het project betrouwbaar blijft en experimenten of nog niet afgeronde code daar niet per ongeluk in terechtkomen. Een pull request is een verzoek (meestal op GitHub) om de wijzigingen uit je branch te beoordelen, te bespreken en uiteindelijk samen te voegen (mergen) met bijvoorbeeld main.
